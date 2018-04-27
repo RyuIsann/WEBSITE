@@ -1,0 +1,94 @@
+#main_body{
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+#header{
+	width: 100%;
+	height: 65px;
+	margin: 0;
+}
+#header_left{
+	width: auto;
+	height: 55px;
+	margin: 10px auto auto 5%;
+	float: left;
+}
+#header_right{
+	width: auto;
+	height: 55px;
+	margin: 6.5px 5% auto auto;
+	float: right;
+	text-align: right;
+}
+.logo{
+	height: 100%;
+}
+.tree{
+	height: 40%;
+}
+.green_line{
+	width: 100%;
+	height: auto;
+	margin: 6px 0;
+	background-color: green;
+}
+#uper_line_word{
+	width: 45%;
+	height: auto;
+	margin: auto 5% auto auto;
+	text-align: right;
+}
+#title_chinese{
+	width: 100%;
+	height: auto;
+	margin: 10px 0 0 0;
+}
+#title_english{
+	width: 100%;
+	height: auto;
+	margin: 0 0 15px 0;
+}
+.inner_word{
+	width: 45%;
+	height: auto;
+	margin: auto auto auto 1%;
+	padding: 3px;
+}
+#signature{
+	width: 100%;
+	height: 120px;
+	margin: 15px 0 0 0;
+	overflow: hidden;
+}
+#sign_left{
+	width: 25%;
+	height: auto;
+	margin: auto auto auto 1%;
+	float: left;
+}
+#sign_right{
+	width: 20%;
+	height: auto;
+	margin: auto 25% auto auto;
+	float: right;
+}
+#picture{
+	width: 100%;
+	height: auto;
+	margin: 5px 0 0 0;
+	overflow: hidden;
+}
+#picture_left{
+	width: 50%;
+	height: auto;
+	margin: auto;
+	float: left;
+}
+#picture_right{
+	width: 40%;
+	padding: 5%;
+	height: auto;
+	margin: auto;
+	float: right;
+}
