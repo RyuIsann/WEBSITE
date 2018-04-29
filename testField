@@ -1,0 +1,18 @@
+package webPage;
+import java.sql.*;
+
+
+public class Stefano {
+	
+	static Connection conn = null;
+	static Statement st = null;
+	static ResultSet rs = null;
+	
+	public static void main(String[] args) throws Exception{
+		 Class.forName("com.mysql.cj.jdbc.Driver");
+		 String url ="jdbc:mysql://localhost:3306/sys?user=root&password=lzc54321&useUnicode=true&characterEncoding=utf-8&useSSL=false";
+		 conn = DriverManager.getConnection(url);
+		 st = (Statement)conn.createStatement();
+		 String query ="select * from table";
+	}
+}
